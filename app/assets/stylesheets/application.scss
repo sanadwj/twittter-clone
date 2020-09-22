@@ -12,7 +12,9 @@
  *
  *= require_tree .
  *= require_self
+ 
  */
+ 
 
 
 
@@ -31,6 +33,6 @@
  }
 
 
- .notifications:not(:last-child) {
+ .notification:not(:last-child) {
    margin-bottom: 0;
  }

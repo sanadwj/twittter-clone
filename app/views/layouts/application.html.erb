@@ -6,20 +6,21 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
   <% if flash[:notice]%>
     <div class="notification is-primary global-notification">
-      <p class="notice"><%=notice%></p>
+      <p class="notice"><%= notice %></p>
     </div>
   
   <% end %>
 
-  <% if flash[:notice]%>
+  <% if flash[:alert]%>
     <div class="notification is-danger global-notification">
-      <p class="alert"><%=alert%></p>
+      <p class="alert"><%= alert %></p>
     </div>
   <% end %>
   <nav class="navbar is-info">
@@ -33,13 +34,16 @@
       <span></span>
       <span></span>
       </div>
-    </div>
+     </div>
 
     <div id="navbarExample" class="navbar-menu">
       <div class="navbar-end">
-        <p class="field is-grouped">
-          <%= link_to 'New Tweeet', new_tweeet_path, class: "button is-info is-inverted"%>
-        </p>
+        <div class="field is-grouped">
+          <p class="control">
+            <%= link_to 'New Tweeet', new_tweeet_path, class: "button is-info is-inverted"%>
+          </p>
+          
+        </div>
       </div>
     </div>
   </nav>
