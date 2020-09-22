@@ -1,24 +1,44 @@
-# README
+##  Twitter clone 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In this project I built a Twitter clone, both using nearly-pure HTML and then graduating to using the helper methods that Rails provides and authentication.
 
-Things you may want to cover:
+![screenshot](./Screenshot.png)
 
-* Ruby version
+## Build With
 
-* System dependencies
+- Ruby 2.7.0p0
+- Ruby on Rails 5.2.4.4
 
-* Configuration
+### Setup
+ - Open a terminal
+ - Copy this code : 
+        ```
+        git@github.com:sanadwj/twittter-clone.git
+        ```
 
-* Database creation
 
-* Database initialization
+## Author
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+👤 **Sanad Walid Abujbara**
 
-* Deployment instructions
+- Github: [@sanadwj](https://github.com/githubhandle)
+- Twitter: [@sandooog](https://twitter.com/sandooog)
+- Linkedin: [sanad-abujbara](https://linkedin.com/in/sanad-abujbara)
 
-* ...
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+## Show your support .
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse Team 139 (The Thanatos)
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
+
